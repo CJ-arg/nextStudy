@@ -4,9 +4,10 @@ export default function AboutLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div>
-      <h1>Hello Root Layout About </h1>
+    <main className="flex flex-col items-center p-24">
+      <span className="text-lg">Pagina Portfolio Page</span>
+
       {children}
-    </div>
+    </main>
   );
 }
