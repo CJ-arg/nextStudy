@@ -6,13 +6,13 @@ export default function Multi1Layout({
   children: React.ReactNode;
 }) {
   return (
-    <> 
-    <Navbar/>
-     <main className="flex flex-col items-center p-24">
-      <span className="text-lg">Pagina Portfolio Page</span>
+    <>
+      <Navbar />
+      <main className="flex flex-col items-center p-24">
+        <span className="text-lg">Pagina Portfolio Page</span>
 
-      {children}
-    </main>
-  );</>
-  
+        {children}
+      </main>
+    </>
+  );
 }
