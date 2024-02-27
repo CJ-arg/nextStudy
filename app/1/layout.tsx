@@ -1,4 +1,4 @@
-export default function AboutLayout({
+export default function Multi1Layout({
   children,
 }: {
   children: React.ReactNode;
