@@ -20,24 +20,6 @@ const Navbar = () => {
         {navItems.map((navItem) => (
           <ActiveLink key={navItem.path} {...navItem} />
         ))}
-        {/* <Link
-          className="mr-2 bg-red-500 bg-opacity-10 p-1 m-1 rounded "
-          href="/about"
-        >
-          About
-        </Link>
-        <Link
-          className="mr-2 bg-red-500 bg-opacity-10 p-1 m-1 rounded "
-          href="/pricing"
-        >
-          Pricing
-        </Link>
-        <Link
-          className="mr-2 bg-red-500 bg-opacity-10 p-1 m-1 rounded "
-          href="/contact"
-        >
-          Contact
-        </Link> */}
       </div>
     </nav>
   );
