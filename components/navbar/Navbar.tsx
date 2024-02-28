@@ -10,12 +10,13 @@ const navItems = [
 const Navbar = () => {
   return (
     <nav className="flex bg-blue-800 bg-opacity-30 p-2 m-2 rounded">
-      <Link href="/">
-        <span className="flex bg-red-500 bg-opacity-10 p-1 m-1 rounded ">
+      <Link href="/" className="flex items-center">
+        <span className="mr-2 ">
           <HomeIcon />
-        </span>
+        </span>{" "}
+        <span>Home</span>
       </Link>
-
+      <div className="flex flex-1"></div>
       <div className="flex flex-1">
         {navItems.map((navItem) => (
           <ActiveLink key={navItem.path} {...navItem} />
