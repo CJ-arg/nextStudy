@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Navbar = () => {
   return (
     <nav className="flex bg-blue-800 bg-opacity-30 p-2 m-2 rounded">
@@ -5,24 +7,24 @@ const Navbar = () => {
         Home
       </span>
       <div className="flex flex-1">
-        <a
+        <Link
           className="mr-2 bg-red-500 bg-opacity-10 p-1 m-1 rounded "
-          href="1/about"
+          href="/about"
         >
           About
-        </a>
-        <a
+        </Link>
+        <Link
           className="mr-2 bg-red-500 bg-opacity-10 p-1 m-1 rounded "
-          href="1/pricing"
+          href="/pricing"
         >
           Pricing
-        </a>
-        <a
+        </Link>
+        <Link
           className="mr-2 bg-red-500 bg-opacity-10 p-1 m-1 rounded "
-          href="1/contact"
+          href="/contact"
         >
           Contact
-        </a>
+        </Link>
       </div>
     </nav>
   );

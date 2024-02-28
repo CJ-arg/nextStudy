@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import React from "react";
 
 export const metadata: Metadata = {
   title: "SEO Title",
@@ -7,5 +6,9 @@ export const metadata: Metadata = {
   keywords: ["about", "Carlos Janon", "portfolio"],
 };
 export default function AboutPage() {
-  return <span className="text-7xl">About Page</span>;
+  return (
+    <>
+      <span className="text-7xl">About Page</span>
+    </>
+  );
 }
